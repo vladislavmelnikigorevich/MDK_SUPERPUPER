@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "ru");
-	string name;
-	cout << "Введите ваше имя ->" << endl;
-	cin >> name;
+	
+	int a;
+	cout << "enter your number ->" << endl;
+	cin >> a;
 }
 
