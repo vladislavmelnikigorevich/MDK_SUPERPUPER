@@ -1,10 +1,14 @@
 ﻿
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-   cout << "Hello World!\n";
+	setlocale(LC_ALL, "ru");
+	string name;
+	cout << "Введите ваше имя ->" << endl;
+	cin >> name;
 }
 
